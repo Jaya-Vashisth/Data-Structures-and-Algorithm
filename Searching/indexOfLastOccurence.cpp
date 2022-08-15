@@ -6,7 +6,7 @@ using namespace std;
 
 
 //binary search approach 
-int firstOccurrence(int arr[],int n, int x)     
+int lastOccurrence(int arr[],int n, int x)     
 {
     int low=0;
     int high=n-1;
@@ -36,5 +36,6 @@ int main()
     int arr[]={1,2,2,2,4};
     int n=5;
 
-    cout<<firstOccurrence(arr,n,2);
+    cout<<lastOccurrence(arr,n,2);
+
 }
